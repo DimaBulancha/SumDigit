@@ -8,6 +8,7 @@ public class NumericService {
         //for (int x = 0; x < myArr.length; x++)
         //char [] text;
 
+
         return result;
     }
 
