@@ -3,12 +3,11 @@ public class NumericService {
     //=============== 3.1
     public static int getSumByTypes(int number) {
         int result = 0;
-        String text = String.valueOf(number);
-        //int [] myArr={6,42,3,1};
-        //for (int x = 0; x < myArr.length; x++)
-        //char [] text;
-
-
+        String str = Integer.toString(number);
+        char[] simvol = str.toCharArray();
+        for (int i = 0; i < simvol.length; i++) {
+            result = result + simvol[i];
+        }
         return result;
     }
 
